@@ -1,0 +1,22 @@
+.DS_Store
+*.swp
+.sw*
+.idea/*
+.editorconfig
+.jshintrc
+.travis.yml
+.sass-cache/
+.project
+.css
+.map
+*.css.map
+*.pyc
+__init__.py
+
+# These files are compiled
+/d/
+/node_modules/
+
+# Node.js
+*/node_modules
+npm-debug.log
