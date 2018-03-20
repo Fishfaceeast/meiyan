@@ -17,7 +17,7 @@ function cleanBuiltFiles(cb) {
 gulp.task('clean', cleanBuiltFiles)
 
 gulp.task('build', gulp.parallel(
-	'build-css',
+	// 'build-css',
 	'build-scripts'
 ))
 

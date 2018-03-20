@@ -58,6 +58,12 @@ function genWebpackConfig(opt) {
 		module: {
 			loaders: [
 				{ test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel' },
+
+				{
+					test: /\.scss$/,
+					loaders: ["style-loader", "css-loader", "sass-loader"]
+				},
+
 				{ test: /\.css$/, loader: 'style!css?localIdentName=[local]___[hash:base64:5]&sourceMap'},
 				{ test: /\.png$/, loader: "url-loader?mimetype=image/png" }
 			],
