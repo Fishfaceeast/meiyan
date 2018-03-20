@@ -2,6 +2,6 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ToastDemo from './index.jsx';
+import OverlayDemo from './index.jsx';
 
-ReactDOM.render(<ToastDemo/>, document.getElementById('J_DemoContainer'));
+ReactDOM.render(<OverlayDemo/>, document.getElementById('J_DemoContainer'));
